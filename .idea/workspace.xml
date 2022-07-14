@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce2138e2-22a1-4a54-bee1-725ba59ee56f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/config/DemoAppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/config/MySpringMvcDispatcherServletInitializer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657828125769</updated>
-      <workItem from="1657828130270" duration="1813000" />
+      <workItem from="1657828130270" duration="2128000" />
     </task>
     <servers />
   </component>
