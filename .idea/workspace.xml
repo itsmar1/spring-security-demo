@@ -10,7 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce2138e2-22a1-4a54-bee1-725ba59ee56f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +157,7 @@
       <workItem from="1657828130270" duration="3906000" />
       <workItem from="1657912100187" duration="1200000" />
       <workItem from="1657969010416" duration="3421000" />
-      <workItem from="1657993463906" duration="4246000" />
+      <workItem from="1657993463906" duration="5528000" />
     </task>
     <servers />
   </component>
