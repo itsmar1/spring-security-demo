@@ -22,7 +22,18 @@
     Welcome to the luv2code Company Home Page
     </p>
 
-    
+
+    <hr>
+
+    <!-- display username and role -->
+
+    <p>
+        User: <security:authentication property="principal.username" />
+        <br><br>
+        Role(s): <security:authentication property="principal.authorities" />
+    </p>
+
+    <hr>
 
     <!-- Add a logout button -->
     <form:form action="${pageContext.request.contextPath}/logout" method="post">
