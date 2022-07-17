@@ -6,6 +6,7 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.userdetails.User;
+import org.springframework.security.core.userdetails.User.UserBuilder;
 
 @Configuration
 @EnableWebSecurity
@@ -16,7 +17,7 @@ public class DemoSecurityConfig extends WebSecurityConfigurerAdapter {
 
         // add our users for in memory authentication
 
-        User.UserBuilder users = User.withDefaultPasswordEncoder();
+        UserBuilder users = User.withDefaultPasswordEncoder();
 
         auth.inMemoryAuthentication()
                 .withUser(users.username("john").password("test123").roles("EMPLOYEE"))
