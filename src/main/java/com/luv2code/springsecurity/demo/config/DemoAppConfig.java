@@ -1,5 +1,6 @@
 package com.luv2code.springsecurity.demo.config;
 
+import com.mchange.v2.c3p0.ComboPooledDataSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -11,6 +12,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 import javax.sql.DataSource;
+import java.beans.PropertyVetoException;
 import java.util.logging.Logger;
 
 @Configuration
@@ -46,12 +48,25 @@ public class DemoAppConfig {
     public DataSource securityDataSource() {
 
         // create connection pool
+        ComboPooledDataSource securityDataSource = new ComboPooledDataSource();
+
         // set the jdbc driver class
+        try {
+            securityDataSource.setDriverClass(env.getProperty("jdbc.driver"));
+        } catch (PropertyVetoException e) {
+            throw new RuntimeException(e);
+        }
+
         // log the connection props
+        // for sanity's sake, log this info
+        // just to make sure we are REALLY reading data from properties file
+        logger.info(">>> jdbc.url=" + env.getProperty("jdbc.url"));
+        logger.info(">>> jdbc.user=" + env.getProperty("jdbc.user"));
+
         // set database connection props
         // set connection pool props
 
-        return null;
+        return securityDataSource;
     }
 }
 
