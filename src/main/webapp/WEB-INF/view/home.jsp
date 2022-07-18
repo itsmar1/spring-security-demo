@@ -32,7 +32,7 @@
         <br><br>
         Role(s): <security:authentication property="principal.authorities" />
     </p>
-    
+
 
     <security:authorize access="hasRole('MANAGER')">
         <!-- Add a link to point to /leaders ... this is for the managers -->
