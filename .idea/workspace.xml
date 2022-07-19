@@ -11,7 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ce2138e2-22a1-4a54-bee1-725ba59ee56f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/persistence-mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/persistence-mysql.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +169,7 @@
       <workItem from="1658061142245" duration="3109000" />
       <workItem from="1658077726643" duration="11867000" />
       <workItem from="1658143787037" duration="5217000" />
-      <workItem from="1658168786275" duration="3639000" />
+      <workItem from="1658168786275" duration="5298000" />
     </task>
     <servers />
   </component>
